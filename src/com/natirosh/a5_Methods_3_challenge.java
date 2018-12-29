@@ -1,6 +1,6 @@
 package com.natirosh;
 
-public class a5_Methods_2_chalange {
+public class a5_Methods_3_challenge {
 
     public static void main(String[] args) {
 
