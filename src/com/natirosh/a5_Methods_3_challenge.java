@@ -47,7 +47,7 @@ public class a5_Methods_3_challenge {
     } else if (playerScore >= 500) {
         position = 2;
     } else if (playerScore >= 100) {
-        position = 1;
+        position = 3;
     }
     return position;
     }
