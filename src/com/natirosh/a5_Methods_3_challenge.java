@@ -45,7 +45,7 @@ public class a5_Methods_3_challenge {
     public static int calculateScore(boolean gameOver, int score, int leverComplete, int bonus) {
         if (gameOver) {
             int finalScore = score + (leverComplete * bonus);
-            finalScore += 2000;
+            finalScore += 1500;
             return finalScore;
 
         } else {
