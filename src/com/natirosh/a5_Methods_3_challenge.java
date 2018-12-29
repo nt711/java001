@@ -39,7 +39,8 @@ public class a5_Methods_3_challenge {
             return 2;
         } else if (playerScore >= 100) {
             return 3;
-        } else return 4;
+        }
+        return 4;
     }
 
     public static int calculateScore(boolean gameOver, int score, int leverComplete, int bonus) {
