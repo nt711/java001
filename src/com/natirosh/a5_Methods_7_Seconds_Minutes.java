@@ -2,6 +2,7 @@ package com.natirosh;
 
 public class a5_Methods_7_Seconds_Minutes {
     public static void main(String[] args) {
+        System.out.println(getDurationString(301, 22));
 
     }
     public static String getDurationString (int minutes, int seconds) {
@@ -9,9 +10,10 @@ public class a5_Methods_7_Seconds_Minutes {
             return "Invalid Value";
         }
         if (minutes >=60) {
-            int hours = minutes / 60;
-//            while minutes >= ???
+//            minutes += hours % 60;
+//            hours = minutes / 60;
+
         }
-        return "aa"
+        return hours + "h " + minutes + "m " + seconds + "s";
     }
 }
