@@ -2,11 +2,11 @@ package com.natirosh;
 
 public class a5_Methods_7_Seconds_Minutes {
     public static void main(String[] args) {
-        System.out.println(getDurationString(3709));
+        System.out.println(getDurationString(37909));
     }
 
     public static String getDurationString(int minutes, int seconds) {
-        if ((minutes < 0) || (seconds < 0 || seconds > 60)) {
+        if ((minutes < 0) || (seconds < 0 || seconds > 59)) {
             return "Invalid Value";
         }
         int hours = minutes / 60;
