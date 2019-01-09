@@ -12,9 +12,9 @@ public class a6_readingUserInput_Challenge {
 
             System.out.println("Enter number #" + counter + ":");
 
-            boolean hasNextInt = scanner.hasNextInt();
+            boolean isAnInt = scanner.hasNextInt();
 
-            if (!hasNextInt) {
+            if (!isAnInt) {
                 System.out.println("Invalid Number");
                 scanner.next();
 
