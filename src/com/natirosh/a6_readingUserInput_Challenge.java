@@ -6,25 +6,26 @@ public class a6_readingUserInput_Challenge {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        int counter = 0;
+        int counter = 1;
         int sum = 0;
-        while (counter < 10) {
-            counter ++;
+        while (counter <= 3) {
 
             System.out.println("Enter number #" + counter + ":");
 
             boolean hasNextInt = scanner.hasNextInt();
 
-            if (hasNextInt) {
+            if (!hasNextInt) {
+                System.out.println("Invalid Number");
+                scanner.next();
+
+            } else {
+                counter++;
                 sum += scanner.nextInt();
 
-            }else {
-                System.out.println("Invalid Number");
-
-                scanner.close();
             }
 
         }
+        scanner.close();
         System.out.println(" Sum of all numbers is " + sum);
 
     }
