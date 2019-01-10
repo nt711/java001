@@ -24,6 +24,7 @@ public class a6_09_Minimum_maximum_Challenge {
                 currentNumber = scanner.nextInt();
 
             if (currentNumber > max) {
+
                 max = currentNumber;
 
 
