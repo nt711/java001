@@ -1,6 +1,6 @@
 package com.natirosh;
 
-public class a4_ifKeyword {
+public class a4_01_ifKeyword {
     public static void main(String[] args) {
         boolean gameOver = true;
         int score = 800;

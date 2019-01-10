@@ -1,6 +1,6 @@
 package com.natirosh;
 
-public class a5_Methods_4_OverLoading {
+public class a5_05_Methods_5_OverLoading {
     public static void main(String[] args) {
         double a = calcFeetAndInchesToCentimeters(6, 4);
         System.out.println("Value is " + a + "cm");

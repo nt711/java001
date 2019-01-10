@@ -1,6 +1,6 @@
 package com.natirosh;
 
-public class a3_Statements {
+public class a3_01_Statements {
     public static void main(String[] args) {
         System.out.println("Statements_3");
         int myVariable = 50;

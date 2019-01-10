@@ -1,8 +1,8 @@
 package com.natirosh;
 
-public class a6_convertString_to_number {
+public class a6_06_convertString_to_number {
     public static void main(String[] args) {
-        String numberAsString = "2019";
+        String numberAsString = "2019`";
         System.out.println("numberAsString = " + numberAsString);
 
         int number = Integer.parseInt(numberAsString);

@@ -1,6 +1,6 @@
 package com.natirosh;
 
-public class a6_forLoop_challenge_3_sum3and5 {
+public class a6_03_forLoop_challenge_3_sum3and5 {
 
     public static void main(String[] args) {
 

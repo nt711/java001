@@ -8,7 +8,7 @@ package com.natirosh;
  * We have to wake up if the dog is barking before 8:00 or after 22:00 which would return true.
  * In all other cases return false. If the hourOfDay parameter is less than 0 or greater than 23 return false.
  **/
-public class exercise_14_barkingDog {
+public class a5_04_Methods_barkingDog_exercise {
     public static void main(String[] args) {
         if (bark(true, 9)) {
             printAction(true);

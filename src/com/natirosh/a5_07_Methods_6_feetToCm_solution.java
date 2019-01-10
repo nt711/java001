@@ -1,7 +1,7 @@
 package com.natirosh;
 
 
-public class a5_Methods_6_feetToCm_solution {
+public class a5_07_Methods_6_feetToCm_solution {
     public static void main(String[] args) {
         double centimeters = calcFeetAcdInchesToCM(6, 13);
         if (centimeters < 0.0) {

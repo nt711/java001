@@ -1,6 +1,6 @@
 package com.natirosh;
 
-public class a5_Methods {
+public class a5_01_Methods {
     public static void main(String[] args) {
         calculateScore(true,800,5,100);
         calculateScore(true,10000,8,200);

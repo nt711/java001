@@ -1,9 +1,9 @@
 package com.natirosh;
 
-public class a2_Operators {
+public class a2_01_Operators {
 
     public static void main(String[] args) {
-        System.out.println("a2_Operators section 7.1");
+        System.out.println("a2_01_Operators section 7.1");
         int topScore = 80;
         if (topScore < 100)
             System.out.println("You got the high score!");

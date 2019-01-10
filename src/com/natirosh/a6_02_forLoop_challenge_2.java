@@ -1,6 +1,6 @@
 package com.natirosh;
 
-public class a6_forLoop_challenge_2 {
+public class a6_02_forLoop_challenge_2 {
     public static void main(String[] args) {
 
         int count = 0; // need to define the count out of the loop otherwise it will be reseated all over...

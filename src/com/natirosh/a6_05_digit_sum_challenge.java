@@ -1,6 +1,6 @@
 package com.natirosh;
 
-public class a6_digit_sum_challenge {
+public class a6_05_digit_sum_challenge {
     public static void main(String[] args) {
         System.out.println(sumDigits(1234));
         System.out.println(sumDigits(-1234));

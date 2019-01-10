@@ -1,6 +1,6 @@
 package com.natirosh;
 
-public class a5_Methods_6_feetToCm {
+public class a5_06_Methods_6_feetToCm {
     public static void main(String[] args) {
         double b = calcFeetAndInchesToCentimeters(14);
         int c = (int) b;

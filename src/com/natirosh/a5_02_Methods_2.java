@@ -1,6 +1,6 @@
 package com.natirosh;
 
-public class a5_Methods_2 {
+public class a5_02_Methods_2 {
     public static void main(String[] args) {
 
         boolean gameOver = true;

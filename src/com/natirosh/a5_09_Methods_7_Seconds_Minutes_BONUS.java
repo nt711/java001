@@ -1,6 +1,6 @@
 package com.natirosh;
 
-public class a5_Methods_7_Seconds_Minutes_BONUS {
+public class a5_09_Methods_7_Seconds_Minutes_BONUS {
     public static void main(String[] args) {
         System.out.println(getDurationString(65, 45));
         System.out.println(getDurationString(3945));

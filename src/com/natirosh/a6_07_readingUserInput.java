@@ -2,7 +2,7 @@ package com.natirosh;
 
 import java.util.Scanner;
 
-public class a6_readingUserInput {
+public class a6_07_readingUserInput {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 

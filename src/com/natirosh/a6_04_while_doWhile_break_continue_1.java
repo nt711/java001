@@ -1,6 +1,6 @@
 package com.natirosh;
 
-public class a6_while_doWhile_break_continue_1 {
+public class a6_04_while_doWhile_break_continue_1 {
     public static void main(String[] args) {
         //while loop:
         //no semicolon, will run only if condition true, counter needs to be declared outside the loop.

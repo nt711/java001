@@ -1,6 +1,6 @@
 package com.natirosh;
 
-public class exercise_01_psitiveNegativeZero {
+public class a4_02_positiveNegativeZero_exercise {
     public static void main(String[] args) {
         checkNumber(10);
         checkNumber(-10);
