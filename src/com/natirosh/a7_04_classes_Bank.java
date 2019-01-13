@@ -34,6 +34,22 @@ public class a7_04_classes_Bank {
         return balance;
     }
 
+    public int getAccountNumber() {
+        return accountNumber;
+    }
+
+    public void setAccountNumber(int accountNumber) {
+        this.accountNumber = accountNumber;
+    }
+
+    public int getPhoneNumber() {
+        return phoneNumber;
+    }
+
+    public void setPhoneNumber(int phoneNumber) {
+        this.phoneNumber = phoneNumber;
+    }
+
     public int withdrawFunds(int sum) {
         if (sum > balance) {
             return -1;
